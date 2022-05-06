@@ -1,5 +1,13 @@
-import { Widget } from "./components/Widget";
+import { Popover } from "@headlessui/react";
+
+import { FeedWidget } from "./components/Widget";
 
 export function App() {
-  return <Widget />;
+  return (
+    <div>
+      <h1>Hello World</h1>
+
+      <FeedWidget />
+    </div>
+  );
 }
